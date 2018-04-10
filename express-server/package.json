@@ -1,0 +1,30 @@
+{
+  "name": "graphql-react-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.3",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-watch": "^2.0.7"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.3.4",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "graphql": "^0.13.2",
+    "graphql-tools": "^2.23.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
