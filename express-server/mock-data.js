@@ -21,7 +21,11 @@ export const players = [
         firstName: "Julio",
         lastName: "Jones",
         ownerId: 1
-    }
+    }, {
+        id: 5,
+        firstName: "Jeff",
+        lastName: "Janis"
+    },
 ];
 
 export const owners = [
