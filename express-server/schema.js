@@ -3,8 +3,8 @@ import resolvers from "./resolvers";
 
 const typeDefs = `
 type Query {
-  player(firstName: String, lastName: String): Player
-  owner(teamName: String): Owner
+  player(id: Int): Player
+  owner(id: Int): Owner
   players: [Player]
   owners: [Owner]
 }
