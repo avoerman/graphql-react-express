@@ -1,28 +1,35 @@
-import { players, owners } from "./mock-data";
+import { getAllPlayers } from "./services/player-service";
+import { getAllOwners } from "./services/owner-service";
 
 const resolvers = {
   Query: {
     player(root, args) {
-      return players.find(p => args.id === p.id);
+      return getAllPlayers().then(players =>
+        players.filter(p => args.id === p.id)
+      );
     },
     players(root, args) {
-      return players;
+      return getAllPlayers();
     },
     owner(root, args) {
-      return owners.find(o => args.id === o.id);
+      return getAllOwners().then(owners => owners.find(o => args.id === o.id));
     },
     owners(root, args) {
-      return owners;
+      return getAllOwners();
     }
   },
   Player: {
     owner(player) {
-      return owners.find(o => o.id === player.ownerId);
+      return getAllOwners().then(owners =>
+        owners.find(o => o.id === player.ownerId)
+      );
     }
   },
   Owner: {
     players(owner) {
-      return players.filter(p => p.ownerId === owner.id);
+      return getAllPlayers().then(players =>
+        players.filter(p => p.ownerId === owner.id)
+      );
     }
   }
 };
