@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Bruce S",
+        "email": "imarocker@email.com",
+        "password": "glory-days",
+        "residence": "Darlington County, South Carolina",
+        "groups": [
+            {
+                "name": "E Street Band",
+                "members": [
+                    {
+                        "name": "Clarence C",
+                        "email": "thebigman@email.com",
+                        "password": "jungleland",
+                        "residence": "New York, New York",
+                        "groups": []
+                    },
+                    {
+                        "name": "Max Weinberg",
+                        "email": "drummer@e-streetl.com",
+                        "password": "onetwothree",
+                        "residence": "Newark, New Jersey",
+                        "groups": []
+                    },
+                    {
+                        "name": "Steven Van Zandt",
+                        "email": "miamisteve@gmail.com",
+                        "password": "dicipleofsoul",
+                        "residence": "Winthrop, Massachusetts",
+                        "groups": [
+                            {
+                                "name": "Little Steven and the Disciples of Soul",
+                                "members": [
+                                    {
+                                        "name": "Steven Van Zandt",
+                                        "email": "miamisteve@gmail.com",
+                                        "password": "dicipleofsoul",
+                                        "residence": "Winthrop, Massachusetts",
+                                        "groups": []
+                                    },
+                                    {
+                                        "name": "Mark Ribler",
+                                        "email": "markribler@gmail.com",
+                                        "password": "someguy",
+                                        "residence": "Jackson, New Jersey",
+                                        "groups": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Michael Phillip Jagger",
+        "email": "soulsurvivor@thestones.com",
+        "password": "itsonlyrockandroll",
+        "residence": "Kent, England",
+        "groups": [
+            {
+                "name": "The Rolling Stones",
+                "members": [
+                    {
+                        "name": "Keith Richards",
+                        "email": "stayingalive@thestones.com",
+                        "password": "guitargod",
+                        "residence": "London, England",
+                        "groups": []
+                    },
+                    {
+                        "name": "Charlie Watts",
+                        "email": "drummin4life@thestones.com",
+                        "password": "rocksoff",
+                        "residence": "London, England",
+                        "groups": []
+                    },
+                    {
+                        "name": "Ronnie Wood",
+                        "email": "faces@thestones.com",
+                        "password": "alldowntheline",
+                        "residence": "Hillingdon, England",
+                        "groups": []
+                    }
+                ]
+            }
+        ]
+    }
+]

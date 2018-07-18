@@ -1,8 +1,8 @@
-import * as fs from 'fs';
+import fs from 'fs';
 
-export function getAllOwners() {
+export default function getAllUsers() {
   return new Promise((resolve, reject) => {
-    fs.readFile('./data/owners.json', 'utf8', (err, data) => {
+    fs.readFile('./data/users.json', 'utf8', (err, data) => {
       if (err) {
         reject(err);
       }
