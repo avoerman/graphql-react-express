@@ -16,3 +16,8 @@ graphiQL should start on http://localhost:4000/graphiql
 * npm run start
 
 A React dev server should start at http://localhost:3000 - this will point to your running graphql server.
+
+## References
+* [GraphQL Main Page](https://graphql.org)
+* [Apollo GraphQL](https://www.apollographql.com)
+* [GraphQL Presentation](https://slides.com/sampastoriza/graphql)
