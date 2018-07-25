@@ -1,0 +1,20 @@
+.availablePlayers {
+  margin-top: 1em;
+  max-height: 30em;
+  overflow-y: auto;
+}
+
+.availablePlayers h3 {
+  padding: 0;
+  margin: .5em 0 1em 0;
+  color: darkgreen;
+}
+
+.availablePlayers li {
+  padding: .25em;
+  cursor: default;
+}
+
+.availablePlayers li:hover {
+  color: goldenrod;
+}

@@ -1,11 +1,19 @@
-import React, { Component } from "react";
-import { graphql } from "react-apollo";
-import gql from "graphql-tag";
-import "./Owners.css";
+import React, { Component } from 'react';
+import { graphql } from 'react-apollo';
+import gql from 'graphql-tag';
+import './Owners.css';
+import OwnerDetails from './OwnerDetails';
 
 class Owners extends Component {
-  handleOwnerClick = id => {
-    this.props.ownerClick(id);
+  state = {
+    selectedOwner: -1
+  };
+
+  handleOwnerChange = event => {
+    console.log('selected owner', event.target.value);
+    this.setState({
+      selectedOwner: event.target.value
+    });
   };
 
   render() {
@@ -18,17 +26,18 @@ class Owners extends Component {
     }
 
     return (
-      <div className="owners">
-        <h2>Owners</h2>
-        <ul>
+      <div className="owners panel">
+        <select onChange={this.handleOwnerChange}>
+          <option value="" defaultValue>
+            Select Team...
+          </option>
           {this.props.ownersQuery.owners.map(o => (
-            <li key={o.id}>
-              <a href="#" onClick={() => this.handleOwnerClick(o.id)}>
-                {o.teamName}
-              </a>
-            </li>
+            <option key={o.id} value={o.id}>
+              {o.teamName}
+            </option>
           ))}
-        </ul>
+        </select>
+        <OwnerDetails ownerId={this.state.selectedOwner} />
       </div>
     );
   }
@@ -43,4 +52,4 @@ const OWNERS_QUERY = gql`
   }
 `;
 
-export default graphql(OWNERS_QUERY, { name: "ownersQuery" })(Owners);
+export default graphql(OWNERS_QUERY, { name: 'ownersQuery' })(Owners);

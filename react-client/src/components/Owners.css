@@ -1,4 +1,11 @@
 .owners {
-  border: 1px solid cornflowerblue;
-  padding: 1em;
+  border-color: goldenrod;
+  flex: 1 1;
+  max-width: 14em;
+  max-height: 20em;
+}
+
+.owners select {
+  width: 100%;
+  padding: 0.2em;
 }

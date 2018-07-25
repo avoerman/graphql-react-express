@@ -1,19 +1,22 @@
-import { makeExecutableSchema } from "graphql-tools";
-import resolvers from "./resolvers";
+import { makeExecutableSchema } from 'graphql-tools';
+import resolvers from './resolvers';
 
 const typeDefs = `
 type Query {
   player(id: Int): Player
   owner(id: Int): Owner
-  players: [Player]
+  players(freeAgents: Boolean): [Player]
   owners: [Owner]
 }
 
 type Player {
   id: Int
-  firstName: String
-  lastName: String
+  name: String
+  rank: Int
   owner: Owner
+  position: String
+  nflTeam: String
+  bye: String
 }
 
 type Owner {
