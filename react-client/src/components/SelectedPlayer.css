@@ -1,3 +1,29 @@
 .selectedPlayer {
   min-height: 3em;
 }
+
+.playerCard {
+  display: flex;
+  align-items: center;
+  min-height: 3em;
+}
+
+.playerCard .playerName {
+  color: darkgreen;
+  font-weight: bold;
+  flex: 1;
+}
+
+.playerCard .playerStats {
+  color: #333;
+  margin-top: 0.25em;
+}
+
+.playerCard .draftButton {
+  padding: 0.25em;
+  color: goldenrod;
+  border: 1px solid goldenrod;
+  background: white;
+  border-radius: 0.25em;
+  margin-left: auto;
+}

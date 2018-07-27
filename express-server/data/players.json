@@ -51,7 +51,7 @@
     "position": "RB",
     "nflTeam": "NO",
     "bye": 6,
-    "ownerId": 1
+    "ownerId": 5
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "position": "RB",
     "nflTeam": "NYG",
     "bye": 9,
-    "ownerId": 2
+    "ownerId": 4
   },
   {
     "id": 8,
@@ -78,7 +78,7 @@
     "position": "RB",
     "nflTeam": "LAC",
     "bye": 8,
-    "ownerId": 4
+    "ownerId": 2
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "position": "WR",
     "nflTeam": "NYG",
     "bye": 9,
-    "ownerId": 5
+    "ownerId": 1
   },
   {
     "id": 11,
@@ -150,7 +150,7 @@
     "position": "RB",
     "nflTeam": "ATL",
     "bye": 8,
-    "ownerId": 2
+    "ownerId": 3
   },
   {
     "id": 18,
@@ -159,7 +159,7 @@
     "position": "WR",
     "nflTeam": "GB",
     "bye": 7,
-    "ownerId": 3
+    "ownerId": 2
   },
   {
     "id": 19,
@@ -186,7 +186,7 @@
     "position": "RB",
     "nflTeam": "SF",
     "bye": 10,
-    "ownerId": 1
+    "ownerId": null
   },
   {
     "id": 22,
@@ -195,7 +195,7 @@
     "position": "TE",
     "nflTeam": "NE",
     "bye": 11,
-    "ownerId": 2
+    "ownerId": 1
   },
   {
     "id": 23,
@@ -204,7 +204,7 @@
     "position": "WR",
     "nflTeam": "TB",
     "bye": 5,
-    "ownerId": 3
+    "ownerId": ""
   },
   {
     "id": 24,
@@ -213,7 +213,7 @@
     "position": "RB",
     "nflTeam": "CHI",
     "bye": 5,
-    "ownerId": 4
+    "ownerId": ""
   },
   {
     "id": 25,
@@ -222,7 +222,7 @@
     "position": "RB",
     "nflTeam": "CIN",
     "bye": 9,
-    "ownerId": 5
+    "ownerId": ""
   },
   {
     "id": 26,
@@ -267,7 +267,7 @@
     "position": "TE",
     "nflTeam": "KC",
     "bye": 12,
-    "ownerId": ""
+    "ownerId": 3
   },
   {
     "id": 31,
@@ -330,7 +330,7 @@
     "position": "QB",
     "nflTeam": "GB",
     "bye": 7,
-    "ownerId": ""
+    "ownerId": 2
   },
   {
     "id": 38,
@@ -339,7 +339,7 @@
     "position": "TE",
     "nflTeam": "PHI",
     "bye": 9,
-    "ownerId": ""
+    "ownerId": 4
   },
   {
     "id": 39,
@@ -438,7 +438,7 @@
     "position": "QB",
     "nflTeam": "HOU",
     "bye": 10,
-    "ownerId": ""
+    "ownerId": 5
   },
   {
     "id": 50,

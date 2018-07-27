@@ -6,6 +6,7 @@ import { Query } from 'react-apollo';
 const PLAYERS_QUERY = gql`
   query players($freeAgents: Boolean) {
     players(freeAgents: $freeAgents) {
+      id
       name
       position
       nflTeam
@@ -15,6 +16,10 @@ const PLAYERS_QUERY = gql`
 `;
 
 class AvailablePlayers extends Component {
+  handleSelectedPlayer = playerId => {
+    this.props.playerSelect(playerId);
+  };
+
   render() {
     return (
       <div className="panel availablePlayers">
@@ -26,7 +31,7 @@ class AvailablePlayers extends Component {
             return (
               <ul>
                 {data.players.map(p => (
-                  <li key={p.id}>
+                  <li key={p.id} onClick={() => this.handleSelectedPlayer(p.id)}>
                     <strong>{p.rank}</strong> {p.position} {p.name} ({p.nflTeam})
                   </li>
                 ))}

@@ -6,7 +6,7 @@ import OwnerDetails from './OwnerDetails';
 
 class Owners extends Component {
   state = {
-    selectedOwner: -1
+    selectedOwner: 2
   };
 
   handleOwnerChange = event => {
@@ -27,7 +27,7 @@ class Owners extends Component {
 
     return (
       <div className="owners panel">
-        <select onChange={this.handleOwnerChange}>
+        <select value={this.state.selectedOwner} onChange={this.handleOwnerChange}>
           <option value="" defaultValue>
             Select Team...
           </option>

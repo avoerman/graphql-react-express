@@ -7,7 +7,7 @@
 .availablePlayers h3 {
   padding: 0;
   margin: .5em 0 1em 0;
-  color: darkgreen;
+  color: #333;
 }
 
 .availablePlayers li {

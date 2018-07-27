@@ -15,15 +15,24 @@ export const client = new ApolloClient({
 });
 
 class App extends Component {
+  state = {
+    selectedPlayerId: -1
+  };
+
+  handleSelectedPlayer = playerId => {
+    console.log('selected player', playerId);
+    this.setState({ selectedPlayerId: playerId });
+  };
+
   render() {
     return (
       <ApolloProvider client={client}>
         <div className="app">
-          <h1>Fantasy Football League</h1>
+          <h1>Fantasy Football Draft App</h1>
           <div className="wrapper">
             <div className="playerPane">
-              <SelectedPlayer />
-              <AvailablePlayers />
+              <SelectedPlayer selectedPlayerId={this.state.selectedPlayerId} />
+              <AvailablePlayers playerSelect={this.handleSelectedPlayer} />
             </div>
             <Owners />
           </div>
