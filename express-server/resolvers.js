@@ -1,4 +1,4 @@
-import { getAllPlayers } from './services/player-service';
+import { getAllPlayers, draftPlayer } from './services/player-service';
 import { getAllOwners } from './services/owner-service';
 
 const resolvers = {
@@ -27,6 +27,11 @@ const resolvers = {
   Owner: {
     players(owner) {
       return getAllPlayers().then(players => players.filter(p => p.ownerId === owner.id));
+    }
+  },
+  Mutation: {
+    draft: (root, args) => {
+      return draftPlayer(args.ownerId, args.playerId).then(res => res);
     }
   }
 };

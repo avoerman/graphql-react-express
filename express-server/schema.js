@@ -8,6 +8,10 @@ export const typeDefs = gql`
     owners: [Owner]
   }
 
+  type Mutation {
+    draft(ownerId: Int!, playerId: Int!): Boolean
+  }
+
   type Player {
     id: Int
     name: String

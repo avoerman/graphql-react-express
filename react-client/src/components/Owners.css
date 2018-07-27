@@ -2,7 +2,7 @@
   border-color: goldenrod;
   flex: 1 1;
   max-width: 14em;
-  max-height: 20em;
+  min-height: 20em;
 }
 
 .owners select {

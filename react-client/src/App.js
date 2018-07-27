@@ -24,6 +24,10 @@ class App extends Component {
     this.setState({ selectedPlayerId: playerId });
   };
 
+  handlePlayerDrafted = () => {
+    this.setState({ selectedPlayerId: null });
+  };
+
   render() {
     return (
       <ApolloProvider client={client}>
@@ -31,7 +35,11 @@ class App extends Component {
           <h1>Fantasy Football Draft App</h1>
           <div className="wrapper">
             <div className="playerPane">
-              <SelectedPlayer selectedPlayerId={this.state.selectedPlayerId} />
+              <SelectedPlayer
+                selectedPlayerId={this.state.selectedPlayerId}
+                ownerId="2"
+                playerDrafted={this.handlePlayerDrafted}
+              />
               <AvailablePlayers playerSelect={this.handleSelectedPlayer} />
             </div>
             <Owners />

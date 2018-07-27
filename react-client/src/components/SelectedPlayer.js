@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
 import './SelectedPlayer.css';
-import { Query } from 'react-apollo';
+import { Mutation, Query } from 'react-apollo';
 import gql from 'graphql-tag';
+
+const DRAF_PLAYER = gql`
+  mutation DraftMutation($ownerId: Int!, $playerId: Int!) {
+    draft(ownerId: $ownerId, playerId: $playerId)
+  }
+`;
 
 const GET_PLAYER = gql`
   query player($id: Int) {
     player(id: $id) {
+      id
       name
       nflTeam
       rank
@@ -15,6 +22,12 @@ const GET_PLAYER = gql`
 `;
 
 class SelectedPlayer extends Component {
+  handleDraftCompleted = data => {
+    if (data.draft) {
+      this.props.playerDrafted();
+    }
+  };
+
   render() {
     return (
       <div className="selectedPlayer panel">
@@ -46,7 +59,18 @@ class SelectedPlayer extends Component {
                     <span>Rank: {data.player.rank}</span> <span>Bye: {data.player.bye}</span>
                   </div>
                 </div>
-                <button className="draftButton">Draft</button>
+                <Mutation
+                  mutation={DRAF_PLAYER}
+                  variables={{ playerId: data.player.id, ownerId: this.props.ownerId }}
+                  onCompleted={data => this.handleDraftCompleted(data)}
+                  refetchQueries={['ownersQuery', 'players', 'owner']}
+                >
+                  {draftMutation => (
+                    <button className="draftButton" onClick={draftMutation}>
+                      Draft
+                    </button>
+                  )}
+                </Mutation>
               </div>
             );
           }}
