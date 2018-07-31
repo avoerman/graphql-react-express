@@ -1,8 +1,8 @@
-import * as fs from "fs";
+const fs = require('fs');
 
-export function getAllOwners() {
+module.exports.getAllOwners = () => {
   return new Promise((resolve, reject) => {
-    fs.readFile("./data/owners.json", "utf8", (err, data) => {
+    fs.readFile('./data/owners.json', 'utf8', (err, data) => {
       if (err) {
         reject(err);
       }
@@ -10,4 +10,4 @@ export function getAllOwners() {
       resolve(parsed);
     });
   });
-}
+};

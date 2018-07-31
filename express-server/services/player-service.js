@@ -1,6 +1,6 @@
-import * as fs from 'fs';
+const fs = require('fs');
 
-export function getAllPlayers() {
+module.exports.getAllPlayers = () => {
   return new Promise((resolve, reject) => {
     fs.readFile('./data/players.json', 'utf8', (err, data) => {
       if (err) {
@@ -10,9 +10,9 @@ export function getAllPlayers() {
       resolve(parsed);
     });
   });
-}
+};
 
-export function draftPlayer(ownerId, playerId) {
+module.exports.draftPlayer = (ownerId, playerId) => {
   return new Promise((resolve, reject) => {
     fs.readFile('./data/players.json', 'utf8', (err, data) => {
       if (err) {
@@ -22,7 +22,7 @@ export function draftPlayer(ownerId, playerId) {
       updateOwnerFromFile({ resolve, reject, playersData, ownerId, playerId });
     });
   });
-}
+};
 
 function updateOwnerFromFile({ resolve, reject, playersData, ownerId, playerId }) {
   const playersAfterDrafted = playersData.map(

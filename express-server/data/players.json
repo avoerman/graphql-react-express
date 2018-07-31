@@ -1,1802 +1,1802 @@
 [
-  {
-    "id": 1,
-    "rank": 1,
-    "name": "Todd Gurley",
-    "position": "RB",
-    "nflTeam": "LAR",
-    "bye": 12,
-    "ownerId": 1
-  },
-  {
-    "id": 2,
-    "rank": 2,
-    "name": "LeVeon Bell",
-    "position": "RB",
-    "nflTeam": "PIT",
-    "bye": 7,
-    "ownerId": 2
-  },
-  {
-    "id": 3,
-    "rank": 3,
-    "name": "Ezekiel Elliott",
-    "position": "RB",
-    "nflTeam": "DAL",
-    "bye": 8,
-    "ownerId": 3
-  },
-  {
-    "id": 4,
-    "rank": 4,
-    "name": "David Johnson",
-    "position": "RB",
-    "nflTeam": "ARI",
-    "bye": 9,
-    "ownerId": 4
-  },
-  {
-    "id": 5,
-    "rank": 5,
-    "name": "Antonio Brown",
-    "position": "WR",
-    "nflTeam": "PIT",
-    "bye": 7,
-    "ownerId": 5
-  },
-  {
-    "id": 6,
-    "rank": 6,
-    "name": "Alvin Kamara",
-    "position": "RB",
-    "nflTeam": "NO",
-    "bye": 6,
-    "ownerId": 5
-  },
-  {
-    "id": 7,
-    "rank": 7,
-    "name": "Saquon Barkley",
-    "position": "RB",
-    "nflTeam": "NYG",
-    "bye": 9,
-    "ownerId": 4
-  },
-  {
-    "id": 8,
-    "rank": 8,
-    "name": "DeAndre Hopkins",
-    "position": "WR",
-    "nflTeam": "HOU",
-    "bye": 10,
-    "ownerId": 3
-  },
-  {
-    "id": 9,
-    "rank": 9,
-    "name": "Melvin Gordon",
-    "position": "RB",
-    "nflTeam": "LAC",
-    "bye": 8,
-    "ownerId": 2
-  },
-  {
-    "id": 10,
-    "rank": 10,
-    "name": "Odell Beckham Jr",
-    "position": "WR",
-    "nflTeam": "NYG",
-    "bye": 9,
-    "ownerId": 1
-  },
-  {
-    "id": 11,
-    "rank": 11,
-    "name": "Kareem Hunt",
-    "position": "RB",
-    "nflTeam": "KC",
-    "bye": 12,
-    "ownerId": 1
-  },
-  {
-    "id": 12,
-    "rank": 12,
-    "name": "Leonard Fournette",
-    "position": "RB",
-    "nflTeam": "JAX",
-    "bye": 9,
-    "ownerId": 2
-  },
-  {
-    "id": 13,
-    "rank": 13,
-    "name": "Dalvin Cook",
-    "position": "RB",
-    "nflTeam": "MIN",
-    "bye": 10,
-    "ownerId": 3
-  },
-  {
-    "id": 14,
-    "rank": 14,
-    "name": "Julio Jones",
-    "position": "WR",
-    "nflTeam": "ATL",
-    "bye": 8,
-    "ownerId": 4
-  },
-  {
-    "id": 15,
-    "rank": 15,
-    "name": "Michael Thomas",
-    "position": "WR",
-    "nflTeam": "NO",
-    "bye": 6,
-    "ownerId": 5
-  },
-  {
-    "id": 16,
-    "rank": 16,
-    "name": "Keenan Allen",
-    "position": "WR",
-    "nflTeam": "LAC",
-    "bye": 8,
-    "ownerId": 1
-  },
-  {
-    "id": 17,
-    "rank": 17,
-    "name": "Devonta Freeman",
-    "position": "RB",
-    "nflTeam": "ATL",
-    "bye": 8,
-    "ownerId": 3
-  },
-  {
-    "id": 18,
-    "rank": 18,
-    "name": "Davante Adams",
-    "position": "WR",
-    "nflTeam": "GB",
-    "bye": 7,
-    "ownerId": 2
-  },
-  {
-    "id": 19,
-    "rank": 19,
-    "name": "Christian McCaffrey",
-    "position": "RB",
-    "nflTeam": "CAR",
-    "bye": 4,
-    "ownerId": 4
-  },
-  {
-    "id": 20,
-    "rank": 20,
-    "name": "A.J. Green",
-    "position": "WR",
-    "nflTeam": "CIN",
-    "bye": 9,
-    "ownerId": 5
-  },
-  {
-    "id": 21,
-    "rank": 21,
-    "name": "Jerick McKinnon",
-    "position": "RB",
-    "nflTeam": "SF",
-    "bye": 10,
-    "ownerId": null
-  },
-  {
-    "id": 22,
-    "rank": 22,
-    "name": "Rob Gronkowski",
-    "position": "TE",
-    "nflTeam": "NE",
-    "bye": 11,
-    "ownerId": 1
-  },
-  {
-    "id": 23,
-    "rank": 23,
-    "name": "Mike Evans",
-    "position": "WR",
-    "nflTeam": "TB",
-    "bye": 5,
-    "ownerId": ""
-  },
-  {
-    "id": 24,
-    "rank": 24,
-    "name": "Jordan Howard",
-    "position": "RB",
-    "nflTeam": "CHI",
-    "bye": 5,
-    "ownerId": ""
-  },
-  {
-    "id": 25,
-    "rank": 25,
-    "name": "Joe Mixon",
-    "position": "RB",
-    "nflTeam": "CIN",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 26,
-    "rank": 26,
-    "name": "Doug Baldwin",
-    "position": "WR",
-    "nflTeam": "SEA",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 27,
-    "rank": 27,
-    "name": "T.Y. Hilton",
-    "position": "WR",
-    "nflTeam": "IND",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 28,
-    "rank": 28,
-    "name": "LeSean McCoy",
-    "position": "RB",
-    "nflTeam": "BUF",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 29,
-    "rank": 29,
-    "name": "Adam Thielen",
-    "position": "WR",
-    "nflTeam": "MIN",
-    "bye": 10,
-    "ownerId": ""
-  },
-  {
-    "id": 30,
-    "rank": 30,
-    "name": "Travis Kelce",
-    "position": "TE",
-    "nflTeam": "KC",
-    "bye": 12,
-    "ownerId": 3
-  },
-  {
-    "id": 31,
-    "rank": 31,
-    "name": "Josh Gordon",
-    "position": "WR",
-    "nflTeam": "CLE",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 32,
-    "rank": 32,
-    "name": "Larry Fitzgerald",
-    "position": "WR",
-    "nflTeam": "ARI",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 33,
-    "rank": 33,
-    "name": "Derrius Guice",
-    "position": "RB",
-    "nflTeam": "WAS",
-    "bye": 4,
-    "ownerId": ""
-  },
-  {
-    "id": 34,
-    "rank": 34,
-    "name": "Tyreek Hill",
-    "position": "WR",
-    "nflTeam": "KC",
-    "bye": 12,
-    "ownerId": ""
-  },
-  {
-    "id": 35,
-    "rank": 35,
-    "name": "Stefon Diggs",
-    "position": "WR",
-    "nflTeam": "MIN",
-    "bye": 10,
-    "ownerId": ""
-  },
-  {
-    "id": 36,
-    "rank": 36,
-    "name": "Derrick Henry",
-    "position": "RB",
-    "nflTeam": "TEN",
-    "bye": 8,
-    "ownerId": ""
-  },
-  {
-    "id": 37,
-    "rank": 37,
-    "name": "Aaron Rodgers",
-    "position": "QB",
-    "nflTeam": "GB",
-    "bye": 7,
-    "ownerId": 2
-  },
-  {
-    "id": 38,
-    "rank": 38,
-    "name": "Zach Ertz",
-    "position": "TE",
-    "nflTeam": "PHI",
-    "bye": 9,
-    "ownerId": 4
-  },
-  {
-    "id": 39,
-    "rank": 39,
-    "name": "Alex Collins",
-    "position": "RB",
-    "nflTeam": "BAL",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 40,
-    "rank": 40,
-    "name": "Amari Cooper",
-    "position": "WR",
-    "nflTeam": "OAK",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 41,
-    "rank": 41,
-    "name": "Demaryius Thomas",
-    "position": "WR",
-    "nflTeam": "DEN",
-    "bye": 10,
-    "ownerId": ""
-  },
-  {
-    "id": 42,
-    "rank": 42,
-    "name": "Jay Ajayi",
-    "position": "RB",
-    "nflTeam": "PHI",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 43,
-    "rank": 43,
-    "name": "Rashaad Penny",
-    "position": "RB",
-    "nflTeam": "SEA",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 44,
-    "rank": 44,
-    "name": "JuJu Smith-Schuster",
-    "position": "WR",
-    "nflTeam": "PIT",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 45,
-    "rank": 45,
-    "name": "Kenyan Drake",
-    "position": "RB",
-    "nflTeam": "MIA",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 46,
-    "rank": 46,
-    "name": "Allen Robinson",
-    "position": "WR",
-    "nflTeam": "CHI",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 47,
-    "rank": 47,
-    "name": "Golden Tate",
-    "position": "WR",
-    "nflTeam": "DET",
-    "bye": 6,
-    "ownerId": ""
-  },
-  {
-    "id": 48,
-    "rank": 48,
-    "name": "Brandin Cooks",
-    "position": "WR",
-    "nflTeam": "LAR",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 49,
-    "rank": 49,
-    "name": "Deshaun Watson",
-    "position": "QB",
-    "nflTeam": "HOU",
-    "bye": 10,
-    "ownerId": 5
-  },
-  {
-    "id": 50,
-    "rank": 50,
-    "name": "Alshon Jeffery",
-    "position": "WR",
-    "nflTeam": "PHI",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 51,
-    "rank": 51,
-    "name": "Sony Michel",
-    "position": "RB",
-    "nflTeam": "NE",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 52,
-    "rank": 52,
-    "name": "Mark Ingram",
-    "position": "RB",
-    "nflTeam": "NO",
-    "bye": 6,
-    "ownerId": ""
-  },
-  {
-    "id": 53,
-    "rank": 53,
-    "name": "Royce Freeman",
-    "position": "RB",
-    "nflTeam": "DEN",
-    "bye": 10,
-    "ownerId": ""
-  },
-  {
-    "id": 54,
-    "rank": 54,
-    "name": "Lamar Miller",
-    "position": "RB",
-    "nflTeam": "HOU",
-    "bye": 10,
-    "ownerId": ""
-  },
-  {
-    "id": 55,
-    "rank": 55,
-    "name": "Jimmy Graham",
-    "position": "TE",
-    "nflTeam": "GB",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 56,
-    "rank": 56,
-    "name": "Ronald Jones II",
-    "position": "RB",
-    "nflTeam": "TB",
-    "bye": 5,
-    "ownerId": ""
-  },
-  {
-    "id": 57,
-    "rank": 57,
-    "name": "Jarvis Landry",
-    "position": "WR",
-    "nflTeam": "CLE",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 58,
-    "rank": 58,
-    "name": "Chris Hogan",
-    "position": "WR",
-    "nflTeam": "NE",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 59,
-    "rank": 59,
-    "name": "Dion Lewis",
-    "position": "RB",
-    "nflTeam": "TEN",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 60,
-    "rank": 60,
-    "name": "Marvin Jones",
-    "position": "WR",
-    "nflTeam": "DET",
-    "bye": 6,
-    "ownerId": ""
-  },
-  {
-    "id": 61,
-    "rank": 61,
-    "name": "Greg Olsen",
-    "position": "TE",
-    "nflTeam": "CAR",
-    "bye": 4,
-    "ownerId": ""
-  },
-  {
-    "id": 62,
-    "rank": 62,
-    "name": "Russell Wilson",
-    "position": "QB",
-    "nflTeam": "SEA",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 63,
-    "rank": 63,
-    "name": "Corey Davis",
-    "position": "WR",
-    "nflTeam": "TEN",
-    "bye": 8,
-    "ownerId": ""
-  },
-  {
-    "id": 64,
-    "rank": 64,
-    "name": "Michael Crabtree",
-    "position": "WR",
-    "nflTeam": "BAL",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 65,
-    "rank": 65,
-    "name": "Tarik Cohen",
-    "position": "RB",
-    "nflTeam": "CHI",
-    "bye": 5,
-    "ownerId": ""
-  },
-  {
-    "id": 66,
-    "rank": 66,
-    "name": "Tom Brady",
-    "position": "QB",
-    "nflTeam": "NE",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 67,
-    "rank": 67,
-    "name": "Sammy Watkins",
-    "position": "WR",
-    "nflTeam": "KC",
-    "bye": 12,
-    "ownerId": ""
-  },
-  {
-    "id": 68,
-    "rank": 68,
-    "name": "Julian Edelman",
-    "position": "WR",
-    "nflTeam": "NE",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 69,
-    "rank": 69,
-    "name": "Evan Engram",
-    "position": "TE",
-    "nflTeam": "NYG",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 70,
-    "rank": 70,
-    "name": "Tevin Coleman",
-    "position": "RB",
-    "nflTeam": "ATL",
-    "bye": 8,
-    "ownerId": ""
-  },
-  {
-    "id": 71,
-    "rank": 71,
-    "name": "Marlon Mack",
-    "position": "RB",
-    "nflTeam": "IND",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 72,
-    "rank": 72,
-    "name": "Kerryon Johnson",
-    "position": "RB",
-    "nflTeam": "DET",
-    "bye": 6,
-    "ownerId": ""
-  },
-  {
-    "id": 73,
-    "rank": 73,
-    "name": "Will Fuller",
-    "position": "WR",
-    "nflTeam": "HOU",
-    "bye": 10,
-    "ownerId": ""
-  },
-  {
-    "id": 74,
-    "rank": 74,
-    "name": "Kyle Rudolph",
-    "position": "TE",
-    "nflTeam": "MIN",
-    "bye": 10,
-    "ownerId": ""
-  },
-  {
-    "id": 75,
-    "rank": 75,
-    "name": "Carson Wentz",
-    "position": "QB",
-    "nflTeam": "PHI",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 76,
-    "rank": 76,
-    "name": "Pierre Garcon",
-    "position": "WR",
-    "nflTeam": "SF",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 77,
-    "rank": 77,
-    "name": "Marshawn Lynch",
-    "position": "RB",
-    "nflTeam": "OAK",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 78,
-    "rank": 78,
-    "name": "Drew Brees",
-    "position": "QB",
-    "nflTeam": "NO",
-    "bye": 6,
-    "ownerId": ""
-  },
-  {
-    "id": 79,
-    "rank": 79,
-    "name": "Delanie Walker",
-    "position": "TE",
-    "nflTeam": "TEN",
-    "bye": 8,
-    "ownerId": ""
-  },
-  {
-    "id": 80,
-    "rank": 80,
-    "name": "Rex Burkhead",
-    "position": "RB",
-    "nflTeam": "NE",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 81,
-    "rank": 81,
-    "name": "Emmanuel Sanders",
-    "position": "WR",
-    "nflTeam": "DEN",
-    "bye": 10,
-    "ownerId": ""
-  },
-  {
-    "id": 82,
-    "rank": 82,
-    "name": "Cam Newton",
-    "position": "QB",
-    "nflTeam": "CAR",
-    "bye": 4,
-    "ownerId": ""
-  },
-  {
-    "id": 83,
-    "rank": 83,
-    "name": "Chris Thompson",
-    "position": "RB",
-    "nflTeam": "WAS",
-    "bye": 4,
-    "ownerId": ""
-  },
-  {
-    "id": 84,
-    "rank": 84,
-    "name": "Jamison Crowder",
-    "position": "WR",
-    "nflTeam": "WAS",
-    "bye": 4,
-    "ownerId": ""
-  },
-  {
-    "id": 85,
-    "rank": 85,
-    "name": "Jamaal Williams",
-    "position": "RB",
-    "nflTeam": "GB",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 86,
-    "rank": 86,
-    "name": "Randall Cobb",
-    "position": "WR",
-    "nflTeam": "GB",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 87,
-    "rank": 87,
-    "name": "Carlos Hyde",
-    "position": "RB",
-    "nflTeam": "CLE",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 88,
-    "rank": 88,
-    "name": "Devin Funchess",
-    "position": "WR",
-    "nflTeam": "CAR",
-    "bye": 4,
-    "ownerId": ""
-  },
-  {
-    "id": 89,
-    "rank": 89,
-    "name": "Trey Burton",
-    "position": "TE",
-    "nflTeam": "CHI",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 90,
-    "rank": 90,
-    "name": "Kirk Cousins",
-    "position": "QB",
-    "nflTeam": "MIN",
-    "bye": 4,
-    "ownerId": ""
-  },
-  {
-    "id": 91,
-    "rank": 91,
-    "name": "CJ Anderson",
-    "position": "RB",
-    "nflTeam": "CAR",
-    "bye": 10,
-    "ownerId": ""
-  },
-  {
-    "id": 92,
-    "rank": 92,
-    "name": "Cooper Kupp",
-    "position": "WR",
-    "nflTeam": "LAR",
-    "bye": 12,
-    "ownerId": ""
-  },
-  {
-    "id": 93,
-    "rank": 93,
-    "name": "Jordan Reed",
-    "position": "TE",
-    "nflTeam": "WAS",
-    "bye": 4,
-    "ownerId": ""
-  },
-  {
-    "id": 94,
-    "rank": 94,
-    "name": "DeVante Parker",
-    "position": "WR",
-    "nflTeam": "MIA",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 95,
-    "rank": 95,
-    "name": "Isaiah Crowell",
-    "position": "RB",
-    "nflTeam": "NYJ",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 96,
-    "rank": 96,
-    "name": "Duke Johnson",
-    "position": "RB",
-    "nflTeam": "CLE",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 97,
-    "rank": 97,
-    "name": "Robert Woods",
-    "position": "WR",
-    "nflTeam": "LAR",
-    "bye": 12,
-    "ownerId": ""
-  },
-  {
-    "id": 98,
-    "rank": 98,
-    "name": "Robby Anderson",
-    "position": "WR",
-    "nflTeam": "NYJ",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 99,
-    "rank": 99,
-    "name": "Jacksonville Defense",
-    "position": "DEF",
-    "nflTeam": "JAX",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 100,
-    "rank": 100,
-    "name": "Aaron Jones",
-    "position": "RB",
-    "nflTeam": "GB",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 101,
-    "rank": 101,
-    "name": "Jordy Nelson",
-    "position": "WR",
-    "nflTeam": "OAK",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 102,
-    "rank": 102,
-    "name": "Jimmy Garoppolo",
-    "position": "QB",
-    "nflTeam": "SF",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 103,
-    "rank": 103,
-    "name": "Marquise Goodwin",
-    "position": "WR",
-    "nflTeam": "SF",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 104,
-    "rank": 104,
-    "name": "Nick Chubb",
-    "position": "RB",
-    "nflTeam": "CLE",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 105,
-    "rank": 105,
-    "name": "Matthew Stafford",
-    "position": "QB",
-    "nflTeam": "DET",
-    "bye": 6,
-    "ownerId": ""
-  },
-  {
-    "id": 106,
-    "rank": 106,
-    "name": "Ty Montgomery",
-    "position": "RB",
-    "nflTeam": "GB",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 107,
-    "rank": 107,
-    "name": "Matt Ryan",
-    "position": "QB",
-    "nflTeam": "ATL",
-    "bye": 8,
-    "ownerId": ""
-  },
-  {
-    "id": 108,
-    "rank": 108,
-    "name": "Allen Hurns",
-    "position": "WR",
-    "nflTeam": "DAL",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 109,
-    "rank": 109,
-    "name": "Andrew Luck",
-    "position": "QB",
-    "nflTeam": "IND",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 110,
-    "rank": 110,
-    "name": "LA Rams Defense",
-    "position": "DEF",
-    "nflTeam": "LAR",
-    "bye": 12,
-    "ownerId": ""
-  },
-  {
-    "id": 111,
-    "rank": 111,
-    "name": "George Kittle",
-    "position": "TE",
-    "nflTeam": "SF",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 112,
-    "rank": 112,
-    "name": "Sterling Shepard",
-    "position": "WR",
-    "nflTeam": "NYG",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 113,
-    "rank": 113,
-    "name": "Philip Rivers",
-    "position": "QB",
-    "nflTeam": "LAC",
-    "bye": 8,
-    "ownerId": ""
-  },
-  {
-    "id": 114,
-    "rank": 114,
-    "name": "Corey Clement",
-    "position": "RB",
-    "nflTeam": "PHI",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 115,
-    "rank": 115,
-    "name": "D.J. Moore",
-    "position": "WR",
-    "nflTeam": "CAR",
-    "bye": 4,
-    "ownerId": ""
-  },
-  {
-    "id": 116,
-    "rank": 116,
-    "name": "Chris Carson",
-    "position": "RB",
-    "nflTeam": "SEA",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 117,
-    "rank": 117,
-    "name": "Calvin Ridley",
-    "position": "WR",
-    "nflTeam": "ATL",
-    "bye": 8,
-    "ownerId": ""
-  },
-  {
-    "id": 118,
-    "rank": 118,
-    "name": "Nyheim Hines",
-    "position": "RB",
-    "nflTeam": "IND",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 119,
-    "rank": 119,
-    "name": "Ben Roethlisberger",
-    "position": "QB",
-    "nflTeam": "PIT",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 120,
-    "rank": 120,
-    "name": "Nelson Agholor",
-    "position": "WR",
-    "nflTeam": "PHI",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 121,
-    "rank": 121,
-    "name": "Minnesota Defense",
-    "position": "DEF",
-    "nflTeam": "MIN",
-    "bye": 10,
-    "ownerId": ""
-  },
-  {
-    "id": 122,
-    "rank": 122,
-    "name": "Donta Foreman",
-    "position": "RB",
-    "nflTeam": "HOU",
-    "bye": 10,
-    "ownerId": ""
-  },
-  {
-    "id": 123,
-    "rank": 123,
-    "name": "Jared Goff",
-    "position": "QB",
-    "nflTeam": "LAR",
-    "bye": 12,
-    "ownerId": ""
-  },
-  {
-    "id": 124,
-    "rank": 124,
-    "name": "Kelvin Benjamin",
-    "position": "WR",
-    "nflTeam": "BUF",
-    "bye": 4,
-    "ownerId": ""
-  },
-  {
-    "id": 125,
-    "rank": 125,
-    "name": "LA Chargers Defense",
-    "position": "DEF",
-    "nflTeam": "LAC",
-    "bye": 8,
-    "ownerId": ""
-  },
-  {
-    "id": 126,
-    "rank": 126,
-    "name": "Marqise Lee",
-    "position": "WR",
-    "nflTeam": "JAX",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 127,
-    "rank": 127,
-    "name": "Pat Mahomes",
-    "position": "QB",
-    "nflTeam": "KC",
-    "bye": 12,
-    "ownerId": ""
-  },
-  {
-    "id": 128,
-    "rank": 128,
-    "name": "Mike Williams",
-    "position": "WR",
-    "nflTeam": "LAC",
-    "bye": 8,
-    "ownerId": ""
-  },
-  {
-    "id": 129,
-    "rank": 129,
-    "name": "Jack Doyle",
-    "position": "TE",
-    "nflTeam": "IND",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 130,
-    "rank": 130,
-    "name": "Philadelphia Defense",
-    "position": "DEF",
-    "nflTeam": "PHI",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 131,
-    "rank": 131,
-    "name": "Giovani Bernard",
-    "position": "RB",
-    "nflTeam": "CIN",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 132,
-    "rank": 132,
-    "name": "Doug Martin",
-    "position": "RB",
-    "nflTeam": "OAK",
-    "bye": 5,
-    "ownerId": ""
-  },
-  {
-    "id": 133,
-    "rank": 133,
-    "name": "Devontae Booker",
-    "position": "RB",
-    "nflTeam": "DEN",
-    "bye": 10,
-    "ownerId": ""
-  },
-  {
-    "id": 134,
-    "rank": 134,
-    "name": "Cameron Meredith",
-    "position": "WR",
-    "nflTeam": "NO",
-    "bye": 5,
-    "ownerId": ""
-  },
-  {
-    "id": 135,
-    "rank": 135,
-    "name": "Kenny Stills",
-    "position": "WR",
-    "nflTeam": "MIA",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 136,
-    "rank": 136,
-    "name": "Marcus Mariota",
-    "position": "QB",
-    "nflTeam": "TEN",
-    "bye": 8,
-    "ownerId": ""
-  },
-  {
-    "id": 137,
-    "rank": 137,
-    "name": "Houston Defense",
-    "position": "DEF",
-    "nflTeam": "HOU",
-    "bye": 10,
-    "ownerId": ""
-  },
-  {
-    "id": 138,
-    "rank": 138,
-    "name": "Rishard Matthews",
-    "position": "WR",
-    "nflTeam": "TEN",
-    "bye": 8,
-    "ownerId": ""
-  },
-  {
-    "id": 139,
-    "rank": 139,
-    "name": "Geronimo Allison",
-    "position": "WR",
-    "nflTeam": "GB",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 140,
-    "rank": 140,
-    "name": "David Njoku",
-    "position": "TE",
-    "nflTeam": "CLE",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 141,
-    "rank": 141,
-    "name": "Martavis Bryant",
-    "position": "WR",
-    "nflTeam": "OAK",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 142,
-    "rank": 142,
-    "name": "Denver Defense",
-    "position": "DEF",
-    "nflTeam": "DEN",
-    "bye": 10,
-    "ownerId": ""
-  },
-  {
-    "id": 143,
-    "rank": 143,
-    "name": "Derek Carr",
-    "position": "QB",
-    "nflTeam": "OAK",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 144,
-    "rank": 144,
-    "name": "Theo Riddick",
-    "position": "RB",
-    "nflTeam": "DET",
-    "bye": 6,
-    "ownerId": ""
-  },
-  {
-    "id": 145,
-    "rank": 145,
-    "name": "Alex Smith",
-    "position": "QB",
-    "nflTeam": "WAS",
-    "bye": 12,
-    "ownerId": ""
-  },
-  {
-    "id": 146,
-    "rank": 146,
-    "name": "Greg Zuerlein",
-    "position": "PK",
-    "nflTeam": "LAR",
-    "bye": 12,
-    "ownerId": ""
-  },
-  {
-    "id": 147,
-    "rank": 147,
-    "name": "Baltimore Defense",
-    "position": "DEF",
-    "nflTeam": "BAL",
-    "bye": 10,
-    "ownerId": ""
-  },
-  {
-    "id": 148,
-    "rank": 148,
-    "name": "Josh Doctson",
-    "position": "WR",
-    "nflTeam": "WAS",
-    "bye": 4,
-    "ownerId": ""
-  },
-  {
-    "id": 149,
-    "rank": 149,
-    "name": "Latavius Murray",
-    "position": "RB",
-    "nflTeam": "MIN",
-    "bye": 10,
-    "ownerId": ""
-  },
-  {
-    "id": 150,
-    "rank": 150,
-    "name": "Kenny Golladay",
-    "position": "WR",
-    "nflTeam": "DET",
-    "bye": 6,
-    "ownerId": ""
-  },
-  {
-    "id": 151,
-    "rank": 151,
-    "name": "Michael Gallup",
-    "position": "WR",
-    "nflTeam": "DAL",
-    "bye": 8,
-    "ownerId": ""
-  },
-  {
-    "id": 152,
-    "rank": 152,
-    "name": "Tyler Eifert",
-    "position": "TE",
-    "nflTeam": "CIN",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 153,
-    "rank": 153,
-    "name": "Chris Ivory",
-    "position": "RB",
-    "nflTeam": "BUF",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 154,
-    "rank": 154,
-    "name": "New Orleans Defense",
-    "position": "DEF",
-    "nflTeam": "NO",
-    "bye": 6,
-    "ownerId": ""
-  },
-  {
-    "id": 155,
-    "rank": 155,
-    "name": "LeGarrette Blount",
-    "position": "RB",
-    "nflTeam": "DET",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 156,
-    "rank": 156,
-    "name": "Justin Tucker",
-    "position": "PK",
-    "nflTeam": "BAL",
-    "bye": 10,
-    "ownerId": ""
-  },
-  {
-    "id": 157,
-    "rank": 157,
-    "name": "Matt Breida",
-    "position": "RB",
-    "nflTeam": "SF",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 158,
-    "rank": 158,
-    "name": "Dak Prescott",
-    "position": "QB",
-    "nflTeam": "DAL",
-    "bye": 8,
-    "ownerId": ""
-  },
-  {
-    "id": 159,
-    "rank": 159,
-    "name": "Stephen Gostkowski",
-    "position": "PK",
-    "nflTeam": "NE",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 160,
-    "rank": 160,
-    "name": "O.J. Howard",
-    "position": "TE",
-    "nflTeam": "TB",
-    "bye": 5,
-    "ownerId": ""
-  },
-  {
-    "id": 161,
-    "rank": 161,
-    "name": "Jordan Matthews",
-    "position": "WR",
-    "nflTeam": "NE",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 162,
-    "rank": 162,
-    "name": "Kenneth Dixon",
-    "position": "RB",
-    "nflTeam": "BAL",
-    "bye": 10,
-    "ownerId": ""
-  },
-  {
-    "id": 163,
-    "rank": 163,
-    "name": "Tyler Lockett",
-    "position": "WR",
-    "nflTeam": "SEA",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 164,
-    "rank": 164,
-    "name": "James White",
-    "position": "RB",
-    "nflTeam": "NE",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 165,
-    "rank": 165,
-    "name": "Eli Manning",
-    "position": "QB",
-    "nflTeam": "NYG",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 166,
-    "rank": 166,
-    "name": "Anthony Miller",
-    "position": "WR",
-    "nflTeam": "CHI",
-    "bye": 5,
-    "ownerId": ""
-  },
-  {
-    "id": 167,
-    "rank": 167,
-    "name": "Dede Westbrook",
-    "position": "WR",
-    "nflTeam": "JAX",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 168,
-    "rank": 168,
-    "name": "Carolina Defense",
-    "position": "DEF",
-    "nflTeam": "CAR",
-    "bye": 4,
-    "ownerId": ""
-  },
-  {
-    "id": 169,
-    "rank": 169,
-    "name": "Spencer Ware",
-    "position": "RB",
-    "nflTeam": "KC",
-    "bye": 12,
-    "ownerId": ""
-  },
-  {
-    "id": 170,
-    "rank": 170,
-    "name": "Jameis Winston",
-    "position": "QB",
-    "nflTeam": "TB",
-    "bye": 5,
-    "ownerId": ""
-  },
-  {
-    "id": 171,
-    "rank": 171,
-    "name": "Pittsburgh Defense",
-    "position": "DEF",
-    "nflTeam": "PIT",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 172,
-    "rank": 172,
-    "name": "Ricky Seals-Jones",
-    "position": "TE",
-    "nflTeam": "ARI",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 173,
-    "rank": 173,
-    "name": "Wil Lutz",
-    "position": "PK",
-    "nflTeam": "NO",
-    "bye": 6,
-    "ownerId": ""
-  },
-  {
-    "id": 174,
-    "rank": 174,
-    "name": "Austin Seferian-Jenkins",
-    "position": "TE",
-    "nflTeam": "JAX",
-    "bye": 5,
-    "ownerId": ""
-  },
-  {
-    "id": 175,
-    "rank": 175,
-    "name": "Kalen Ballage",
-    "position": "RB",
-    "nflTeam": "MIA",
-    "bye": 12,
-    "ownerId": ""
-  },
-  {
-    "id": 176,
-    "rank": 176,
-    "name": "Paul Richardson",
-    "position": "WR",
-    "nflTeam": "WAS",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 177,
-    "rank": 177,
-    "name": "Chicago Defense",
-    "position": "DEF",
-    "nflTeam": "CHI",
-    "bye": 5,
-    "ownerId": ""
-  },
-  {
-    "id": 178,
-    "rank": 178,
-    "name": "Case Keenum",
-    "position": "QB",
-    "nflTeam": "DEN",
-    "bye": 10,
-    "ownerId": ""
-  },
-  {
-    "id": 179,
-    "rank": 179,
-    "name": "Matt Bryant",
-    "position": "PK",
-    "nflTeam": "ATL",
-    "bye": 8,
-    "ownerId": ""
-  },
-  {
-    "id": 180,
-    "rank": 180,
-    "name": "Danny Amendola",
-    "position": "WR",
-    "nflTeam": "MIA",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 181,
-    "rank": 181,
-    "name": "Mitch Trubisky",
-    "position": "QB",
-    "nflTeam": "CHI",
-    "bye": 5,
-    "ownerId": ""
-  },
-  {
-    "id": 182,
-    "rank": 182,
-    "name": "Jake Elliott",
-    "position": "PK",
-    "nflTeam": "PHI",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 183,
-    "rank": 183,
-    "name": "New England Defense",
-    "position": "DEF",
-    "nflTeam": "NE",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 184,
-    "rank": 184,
-    "name": "Tyrell Williams",
-    "position": "WR",
-    "nflTeam": "LAC",
-    "bye": 8,
-    "ownerId": ""
-  },
-  {
-    "id": 185,
-    "rank": 185,
-    "name": "Harrison Butker",
-    "position": "PK",
-    "nflTeam": "KC",
-    "bye": 12,
-    "ownerId": ""
-  },
-  {
-    "id": 186,
-    "rank": 186,
-    "name": "Christian Kirk",
-    "position": "WR",
-    "nflTeam": "ARI",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 187,
-    "rank": 187,
-    "name": "Matt Prater",
-    "position": "PK",
-    "nflTeam": "DET",
-    "bye": 6,
-    "ownerId": ""
-  },
-  {
-    "id": 188,
-    "rank": 188,
-    "name": "Vance McDonald",
-    "position": "TE",
-    "nflTeam": "PIT",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 189,
-    "rank": 189,
-    "name": "Chris Boswell",
-    "position": "PK",
-    "nflTeam": "PIT",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 190,
-    "rank": 190,
-    "name": "Robbie Gould",
-    "position": "PK",
-    "nflTeam": "SF",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 191,
-    "rank": 191,
-    "name": "Dan Bailey",
-    "position": "PK",
-    "nflTeam": "DAL",
-    "bye": 8,
-    "ownerId": ""
-  },
-  {
-    "id": 192,
-    "rank": 192,
-    "name": "Hayden Hurst",
-    "position": "TE",
-    "nflTeam": "BAL",
-    "bye": 10,
-    "ownerId": ""
-  },
-  {
-    "id": 193,
-    "rank": 193,
-    "name": "Mason Crosby",
-    "position": "PK",
-    "nflTeam": "GB",
-    "bye": 7,
-    "ownerId": ""
-  },
-  {
-    "id": 194,
-    "rank": 194,
-    "name": "Keelan Cole",
-    "position": "WR",
-    "nflTeam": "JAX",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 195,
-    "rank": 195,
-    "name": "TJ Yeldon",
-    "position": "RB",
-    "nflTeam": "JAX",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 196,
-    "rank": 196,
-    "name": "Jordan Wilkins",
-    "position": "RB",
-    "nflTeam": "IND",
-    "bye": 9,
-    "ownerId": ""
-  },
-  {
-    "id": 197,
-    "rank": 197,
-    "name": "Mohamed Sanu",
-    "position": "WR",
-    "nflTeam": "ATL",
-    "bye": 8,
-    "ownerId": ""
-  },
-  {
-    "id": 198,
-    "rank": 198,
-    "name": "Tyrod Taylor",
-    "position": "QB",
-    "nflTeam": "CLE",
-    "bye": 11,
-    "ownerId": ""
-  },
-  {
-    "id": 199,
-    "rank": 199,
-    "name": "Benjamin Watson",
-    "position": "TE",
-    "nflTeam": "NO",
-    "bye": 10,
-    "ownerId": ""
-  },
-  {
-    "id": 200,
-    "rank": 200,
-    "name": "Kansas City Defense",
-    "position": "DEF",
-    "nflTeam": "KC",
-    "bye": 12,
-    "ownerId": ""
-  }
-]
+    {
+      "id": 1,
+      "rank": 1,
+      "name": "Todd Gurley",
+      "position": "RB",
+      "nflTeam": "LAR",
+      "bye": 12,
+      "ownerId": 1
+    },
+    {
+      "id": 2,
+      "rank": 2,
+      "name": "LeVeon Bell",
+      "position": "RB",
+      "nflTeam": "PIT",
+      "bye": 7,
+      "ownerId": 2
+    },
+    {
+      "id": 3,
+      "rank": 3,
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "nflTeam": "DAL",
+      "bye": 8,
+      "ownerId": 3
+    },
+    {
+      "id": 4,
+      "rank": 4,
+      "name": "David Johnson",
+      "position": "RB",
+      "nflTeam": "ARI",
+      "bye": 9,
+      "ownerId": 4
+    },
+    {
+      "id": 5,
+      "rank": 5,
+      "name": "Antonio Brown",
+      "position": "WR",
+      "nflTeam": "PIT",
+      "bye": 7,
+      "ownerId": 5
+    },
+    {
+      "id": 6,
+      "rank": 6,
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "nflTeam": "NO",
+      "bye": 6,
+      "ownerId": 5
+    },
+    {
+      "id": 7,
+      "rank": 7,
+      "name": "Saquon Barkley",
+      "position": "RB",
+      "nflTeam": "NYG",
+      "bye": 9,
+      "ownerId": 4
+    },
+    {
+      "id": 8,
+      "rank": 8,
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "nflTeam": "HOU",
+      "bye": 10,
+      "ownerId": 3
+    },
+    {
+      "id": 9,
+      "rank": 9,
+      "name": "Melvin Gordon",
+      "position": "RB",
+      "nflTeam": "LAC",
+      "bye": 8,
+      "ownerId": 2
+    },
+    {
+      "id": 10,
+      "rank": 10,
+      "name": "Odell Beckham Jr",
+      "position": "WR",
+      "nflTeam": "NYG",
+      "bye": 9,
+      "ownerId": 1
+    },
+    {
+      "id": 11,
+      "rank": 11,
+      "name": "Kareem Hunt",
+      "position": "RB",
+      "nflTeam": "KC",
+      "bye": 12,
+      "ownerId": 1
+    },
+    {
+      "id": 12,
+      "rank": 12,
+      "name": "Leonard Fournette",
+      "position": "RB",
+      "nflTeam": "JAX",
+      "bye": 9,
+      "ownerId": 2
+    },
+    {
+      "id": 13,
+      "rank": 13,
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "nflTeam": "MIN",
+      "bye": 10,
+      "ownerId": 3
+    },
+    {
+      "id": 14,
+      "rank": 14,
+      "name": "Julio Jones",
+      "position": "WR",
+      "nflTeam": "ATL",
+      "bye": 8,
+      "ownerId": 4
+    },
+    {
+      "id": 15,
+      "rank": 15,
+      "name": "Michael Thomas",
+      "position": "WR",
+      "nflTeam": "NO",
+      "bye": 6,
+      "ownerId": 5
+    },
+    {
+      "id": 16,
+      "rank": 16,
+      "name": "Keenan Allen",
+      "position": "WR",
+      "nflTeam": "LAC",
+      "bye": 8,
+      "ownerId": 1
+    },
+    {
+      "id": 17,
+      "rank": 17,
+      "name": "Devonta Freeman",
+      "position": "RB",
+      "nflTeam": "ATL",
+      "bye": 8,
+      "ownerId": 3
+    },
+    {
+      "id": 18,
+      "rank": 18,
+      "name": "Davante Adams",
+      "position": "WR",
+      "nflTeam": "GB",
+      "bye": 7,
+      "ownerId": 2
+    },
+    {
+      "id": 19,
+      "rank": 19,
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "nflTeam": "CAR",
+      "bye": 4,
+      "ownerId": 4
+    },
+    {
+      "id": 20,
+      "rank": 20,
+      "name": "A.J. Green",
+      "position": "WR",
+      "nflTeam": "CIN",
+      "bye": 9,
+      "ownerId": 5
+    },
+    {
+      "id": 21,
+      "rank": 21,
+      "name": "Jerick McKinnon",
+      "position": "RB",
+      "nflTeam": "SF",
+      "bye": 10,
+      "ownerId": null
+    },
+    {
+      "id": 22,
+      "rank": 22,
+      "name": "Rob Gronkowski",
+      "position": "TE",
+      "nflTeam": "NE",
+      "bye": 11,
+      "ownerId": 1
+    },
+    {
+      "id": 23,
+      "rank": 23,
+      "name": "Mike Evans",
+      "position": "WR",
+      "nflTeam": "TB",
+      "bye": 5,
+      "ownerId": ""
+    },
+    {
+      "id": 24,
+      "rank": 24,
+      "name": "Jordan Howard",
+      "position": "RB",
+      "nflTeam": "CHI",
+      "bye": 5,
+      "ownerId": ""
+    },
+    {
+      "id": 25,
+      "rank": 25,
+      "name": "Joe Mixon",
+      "position": "RB",
+      "nflTeam": "CIN",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 26,
+      "rank": 26,
+      "name": "Doug Baldwin",
+      "position": "WR",
+      "nflTeam": "SEA",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 27,
+      "rank": 27,
+      "name": "T.Y. Hilton",
+      "position": "WR",
+      "nflTeam": "IND",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 28,
+      "rank": 28,
+      "name": "LeSean McCoy",
+      "position": "RB",
+      "nflTeam": "BUF",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 29,
+      "rank": 29,
+      "name": "Adam Thielen",
+      "position": "WR",
+      "nflTeam": "MIN",
+      "bye": 10,
+      "ownerId": ""
+    },
+    {
+      "id": 30,
+      "rank": 30,
+      "name": "Travis Kelce",
+      "position": "TE",
+      "nflTeam": "KC",
+      "bye": 12,
+      "ownerId": 3
+    },
+    {
+      "id": 31,
+      "rank": 31,
+      "name": "Josh Gordon",
+      "position": "WR",
+      "nflTeam": "CLE",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 32,
+      "rank": 32,
+      "name": "Larry Fitzgerald",
+      "position": "WR",
+      "nflTeam": "ARI",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 33,
+      "rank": 33,
+      "name": "Derrius Guice",
+      "position": "RB",
+      "nflTeam": "WAS",
+      "bye": 4,
+      "ownerId": ""
+    },
+    {
+      "id": 34,
+      "rank": 34,
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "nflTeam": "KC",
+      "bye": 12,
+      "ownerId": ""
+    },
+    {
+      "id": 35,
+      "rank": 35,
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "nflTeam": "MIN",
+      "bye": 10,
+      "ownerId": ""
+    },
+    {
+      "id": 36,
+      "rank": 36,
+      "name": "Derrick Henry",
+      "position": "RB",
+      "nflTeam": "TEN",
+      "bye": 8,
+      "ownerId": ""
+    },
+    {
+      "id": 37,
+      "rank": 37,
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "nflTeam": "GB",
+      "bye": 7,
+      "ownerId": 2
+    },
+    {
+      "id": 38,
+      "rank": 38,
+      "name": "Zach Ertz",
+      "position": "TE",
+      "nflTeam": "PHI",
+      "bye": 9,
+      "ownerId": 4
+    },
+    {
+      "id": 39,
+      "rank": 39,
+      "name": "Alex Collins",
+      "position": "RB",
+      "nflTeam": "BAL",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 40,
+      "rank": 40,
+      "name": "Amari Cooper",
+      "position": "WR",
+      "nflTeam": "OAK",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 41,
+      "rank": 41,
+      "name": "Demaryius Thomas",
+      "position": "WR",
+      "nflTeam": "DEN",
+      "bye": 10,
+      "ownerId": ""
+    },
+    {
+      "id": 42,
+      "rank": 42,
+      "name": "Jay Ajayi",
+      "position": "RB",
+      "nflTeam": "PHI",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 43,
+      "rank": 43,
+      "name": "Rashaad Penny",
+      "position": "RB",
+      "nflTeam": "SEA",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 44,
+      "rank": 44,
+      "name": "JuJu Smith-Schuster",
+      "position": "WR",
+      "nflTeam": "PIT",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 45,
+      "rank": 45,
+      "name": "Kenyan Drake",
+      "position": "RB",
+      "nflTeam": "MIA",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 46,
+      "rank": 46,
+      "name": "Allen Robinson",
+      "position": "WR",
+      "nflTeam": "CHI",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 47,
+      "rank": 47,
+      "name": "Golden Tate",
+      "position": "WR",
+      "nflTeam": "DET",
+      "bye": 6,
+      "ownerId": ""
+    },
+    {
+      "id": 48,
+      "rank": 48,
+      "name": "Brandin Cooks",
+      "position": "WR",
+      "nflTeam": "LAR",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 49,
+      "rank": 49,
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "nflTeam": "HOU",
+      "bye": 10,
+      "ownerId": 5
+    },
+    {
+      "id": 50,
+      "rank": 50,
+      "name": "Alshon Jeffery",
+      "position": "WR",
+      "nflTeam": "PHI",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 51,
+      "rank": 51,
+      "name": "Sony Michel",
+      "position": "RB",
+      "nflTeam": "NE",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 52,
+      "rank": 52,
+      "name": "Mark Ingram",
+      "position": "RB",
+      "nflTeam": "NO",
+      "bye": 6,
+      "ownerId": ""
+    },
+    {
+      "id": 53,
+      "rank": 53,
+      "name": "Royce Freeman",
+      "position": "RB",
+      "nflTeam": "DEN",
+      "bye": 10,
+      "ownerId": ""
+    },
+    {
+      "id": 54,
+      "rank": 54,
+      "name": "Lamar Miller",
+      "position": "RB",
+      "nflTeam": "HOU",
+      "bye": 10,
+      "ownerId": ""
+    },
+    {
+      "id": 55,
+      "rank": 55,
+      "name": "Jimmy Graham",
+      "position": "TE",
+      "nflTeam": "GB",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 56,
+      "rank": 56,
+      "name": "Ronald Jones II",
+      "position": "RB",
+      "nflTeam": "TB",
+      "bye": 5,
+      "ownerId": ""
+    },
+    {
+      "id": 57,
+      "rank": 57,
+      "name": "Jarvis Landry",
+      "position": "WR",
+      "nflTeam": "CLE",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 58,
+      "rank": 58,
+      "name": "Chris Hogan",
+      "position": "WR",
+      "nflTeam": "NE",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 59,
+      "rank": 59,
+      "name": "Dion Lewis",
+      "position": "RB",
+      "nflTeam": "TEN",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 60,
+      "rank": 60,
+      "name": "Marvin Jones",
+      "position": "WR",
+      "nflTeam": "DET",
+      "bye": 6,
+      "ownerId": ""
+    },
+    {
+      "id": 61,
+      "rank": 61,
+      "name": "Greg Olsen",
+      "position": "TE",
+      "nflTeam": "CAR",
+      "bye": 4,
+      "ownerId": ""
+    },
+    {
+      "id": 62,
+      "rank": 62,
+      "name": "Russell Wilson",
+      "position": "QB",
+      "nflTeam": "SEA",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 63,
+      "rank": 63,
+      "name": "Corey Davis",
+      "position": "WR",
+      "nflTeam": "TEN",
+      "bye": 8,
+      "ownerId": ""
+    },
+    {
+      "id": 64,
+      "rank": 64,
+      "name": "Michael Crabtree",
+      "position": "WR",
+      "nflTeam": "BAL",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 65,
+      "rank": 65,
+      "name": "Tarik Cohen",
+      "position": "RB",
+      "nflTeam": "CHI",
+      "bye": 5,
+      "ownerId": ""
+    },
+    {
+      "id": 66,
+      "rank": 66,
+      "name": "Tom Brady",
+      "position": "QB",
+      "nflTeam": "NE",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 67,
+      "rank": 67,
+      "name": "Sammy Watkins",
+      "position": "WR",
+      "nflTeam": "KC",
+      "bye": 12,
+      "ownerId": ""
+    },
+    {
+      "id": 68,
+      "rank": 68,
+      "name": "Julian Edelman",
+      "position": "WR",
+      "nflTeam": "NE",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 69,
+      "rank": 69,
+      "name": "Evan Engram",
+      "position": "TE",
+      "nflTeam": "NYG",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 70,
+      "rank": 70,
+      "name": "Tevin Coleman",
+      "position": "RB",
+      "nflTeam": "ATL",
+      "bye": 8,
+      "ownerId": ""
+    },
+    {
+      "id": 71,
+      "rank": 71,
+      "name": "Marlon Mack",
+      "position": "RB",
+      "nflTeam": "IND",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 72,
+      "rank": 72,
+      "name": "Kerryon Johnson",
+      "position": "RB",
+      "nflTeam": "DET",
+      "bye": 6,
+      "ownerId": ""
+    },
+    {
+      "id": 73,
+      "rank": 73,
+      "name": "Will Fuller",
+      "position": "WR",
+      "nflTeam": "HOU",
+      "bye": 10,
+      "ownerId": ""
+    },
+    {
+      "id": 74,
+      "rank": 74,
+      "name": "Kyle Rudolph",
+      "position": "TE",
+      "nflTeam": "MIN",
+      "bye": 10,
+      "ownerId": ""
+    },
+    {
+      "id": 75,
+      "rank": 75,
+      "name": "Carson Wentz",
+      "position": "QB",
+      "nflTeam": "PHI",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 76,
+      "rank": 76,
+      "name": "Pierre Garcon",
+      "position": "WR",
+      "nflTeam": "SF",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 77,
+      "rank": 77,
+      "name": "Marshawn Lynch",
+      "position": "RB",
+      "nflTeam": "OAK",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 78,
+      "rank": 78,
+      "name": "Drew Brees",
+      "position": "QB",
+      "nflTeam": "NO",
+      "bye": 6,
+      "ownerId": ""
+    },
+    {
+      "id": 79,
+      "rank": 79,
+      "name": "Delanie Walker",
+      "position": "TE",
+      "nflTeam": "TEN",
+      "bye": 8,
+      "ownerId": ""
+    },
+    {
+      "id": 80,
+      "rank": 80,
+      "name": "Rex Burkhead",
+      "position": "RB",
+      "nflTeam": "NE",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 81,
+      "rank": 81,
+      "name": "Emmanuel Sanders",
+      "position": "WR",
+      "nflTeam": "DEN",
+      "bye": 10,
+      "ownerId": ""
+    },
+    {
+      "id": 82,
+      "rank": 82,
+      "name": "Cam Newton",
+      "position": "QB",
+      "nflTeam": "CAR",
+      "bye": 4,
+      "ownerId": ""
+    },
+    {
+      "id": 83,
+      "rank": 83,
+      "name": "Chris Thompson",
+      "position": "RB",
+      "nflTeam": "WAS",
+      "bye": 4,
+      "ownerId": ""
+    },
+    {
+      "id": 84,
+      "rank": 84,
+      "name": "Jamison Crowder",
+      "position": "WR",
+      "nflTeam": "WAS",
+      "bye": 4,
+      "ownerId": ""
+    },
+    {
+      "id": 85,
+      "rank": 85,
+      "name": "Jamaal Williams",
+      "position": "RB",
+      "nflTeam": "GB",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 86,
+      "rank": 86,
+      "name": "Randall Cobb",
+      "position": "WR",
+      "nflTeam": "GB",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 87,
+      "rank": 87,
+      "name": "Carlos Hyde",
+      "position": "RB",
+      "nflTeam": "CLE",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 88,
+      "rank": 88,
+      "name": "Devin Funchess",
+      "position": "WR",
+      "nflTeam": "CAR",
+      "bye": 4,
+      "ownerId": ""
+    },
+    {
+      "id": 89,
+      "rank": 89,
+      "name": "Trey Burton",
+      "position": "TE",
+      "nflTeam": "CHI",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 90,
+      "rank": 90,
+      "name": "Kirk Cousins",
+      "position": "QB",
+      "nflTeam": "MIN",
+      "bye": 4,
+      "ownerId": ""
+    },
+    {
+      "id": 91,
+      "rank": 91,
+      "name": "CJ Anderson",
+      "position": "RB",
+      "nflTeam": "CAR",
+      "bye": 10,
+      "ownerId": ""
+    },
+    {
+      "id": 92,
+      "rank": 92,
+      "name": "Cooper Kupp",
+      "position": "WR",
+      "nflTeam": "LAR",
+      "bye": 12,
+      "ownerId": ""
+    },
+    {
+      "id": 93,
+      "rank": 93,
+      "name": "Jordan Reed",
+      "position": "TE",
+      "nflTeam": "WAS",
+      "bye": 4,
+      "ownerId": ""
+    },
+    {
+      "id": 94,
+      "rank": 94,
+      "name": "DeVante Parker",
+      "position": "WR",
+      "nflTeam": "MIA",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 95,
+      "rank": 95,
+      "name": "Isaiah Crowell",
+      "position": "RB",
+      "nflTeam": "NYJ",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 96,
+      "rank": 96,
+      "name": "Duke Johnson",
+      "position": "RB",
+      "nflTeam": "CLE",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 97,
+      "rank": 97,
+      "name": "Robert Woods",
+      "position": "WR",
+      "nflTeam": "LAR",
+      "bye": 12,
+      "ownerId": ""
+    },
+    {
+      "id": 98,
+      "rank": 98,
+      "name": "Robby Anderson",
+      "position": "WR",
+      "nflTeam": "NYJ",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 99,
+      "rank": 99,
+      "name": "Jacksonville Defense",
+      "position": "DEF",
+      "nflTeam": "JAX",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 100,
+      "rank": 100,
+      "name": "Aaron Jones",
+      "position": "RB",
+      "nflTeam": "GB",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 101,
+      "rank": 101,
+      "name": "Jordy Nelson",
+      "position": "WR",
+      "nflTeam": "OAK",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 102,
+      "rank": 102,
+      "name": "Jimmy Garoppolo",
+      "position": "QB",
+      "nflTeam": "SF",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 103,
+      "rank": 103,
+      "name": "Marquise Goodwin",
+      "position": "WR",
+      "nflTeam": "SF",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 104,
+      "rank": 104,
+      "name": "Nick Chubb",
+      "position": "RB",
+      "nflTeam": "CLE",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 105,
+      "rank": 105,
+      "name": "Matthew Stafford",
+      "position": "QB",
+      "nflTeam": "DET",
+      "bye": 6,
+      "ownerId": ""
+    },
+    {
+      "id": 106,
+      "rank": 106,
+      "name": "Ty Montgomery",
+      "position": "RB",
+      "nflTeam": "GB",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 107,
+      "rank": 107,
+      "name": "Matt Ryan",
+      "position": "QB",
+      "nflTeam": "ATL",
+      "bye": 8,
+      "ownerId": ""
+    },
+    {
+      "id": 108,
+      "rank": 108,
+      "name": "Allen Hurns",
+      "position": "WR",
+      "nflTeam": "DAL",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 109,
+      "rank": 109,
+      "name": "Andrew Luck",
+      "position": "QB",
+      "nflTeam": "IND",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 110,
+      "rank": 110,
+      "name": "LA Rams Defense",
+      "position": "DEF",
+      "nflTeam": "LAR",
+      "bye": 12,
+      "ownerId": ""
+    },
+    {
+      "id": 111,
+      "rank": 111,
+      "name": "George Kittle",
+      "position": "TE",
+      "nflTeam": "SF",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 112,
+      "rank": 112,
+      "name": "Sterling Shepard",
+      "position": "WR",
+      "nflTeam": "NYG",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 113,
+      "rank": 113,
+      "name": "Philip Rivers",
+      "position": "QB",
+      "nflTeam": "LAC",
+      "bye": 8,
+      "ownerId": ""
+    },
+    {
+      "id": 114,
+      "rank": 114,
+      "name": "Corey Clement",
+      "position": "RB",
+      "nflTeam": "PHI",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 115,
+      "rank": 115,
+      "name": "D.J. Moore",
+      "position": "WR",
+      "nflTeam": "CAR",
+      "bye": 4,
+      "ownerId": ""
+    },
+    {
+      "id": 116,
+      "rank": 116,
+      "name": "Chris Carson",
+      "position": "RB",
+      "nflTeam": "SEA",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 117,
+      "rank": 117,
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "nflTeam": "ATL",
+      "bye": 8,
+      "ownerId": ""
+    },
+    {
+      "id": 118,
+      "rank": 118,
+      "name": "Nyheim Hines",
+      "position": "RB",
+      "nflTeam": "IND",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 119,
+      "rank": 119,
+      "name": "Ben Roethlisberger",
+      "position": "QB",
+      "nflTeam": "PIT",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 120,
+      "rank": 120,
+      "name": "Nelson Agholor",
+      "position": "WR",
+      "nflTeam": "PHI",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 121,
+      "rank": 121,
+      "name": "Minnesota Defense",
+      "position": "DEF",
+      "nflTeam": "MIN",
+      "bye": 10,
+      "ownerId": ""
+    },
+    {
+      "id": 122,
+      "rank": 122,
+      "name": "Donta Foreman",
+      "position": "RB",
+      "nflTeam": "HOU",
+      "bye": 10,
+      "ownerId": ""
+    },
+    {
+      "id": 123,
+      "rank": 123,
+      "name": "Jared Goff",
+      "position": "QB",
+      "nflTeam": "LAR",
+      "bye": 12,
+      "ownerId": ""
+    },
+    {
+      "id": 124,
+      "rank": 124,
+      "name": "Kelvin Benjamin",
+      "position": "WR",
+      "nflTeam": "BUF",
+      "bye": 4,
+      "ownerId": ""
+    },
+    {
+      "id": 125,
+      "rank": 125,
+      "name": "LA Chargers Defense",
+      "position": "DEF",
+      "nflTeam": "LAC",
+      "bye": 8,
+      "ownerId": ""
+    },
+    {
+      "id": 126,
+      "rank": 126,
+      "name": "Marqise Lee",
+      "position": "WR",
+      "nflTeam": "JAX",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 127,
+      "rank": 127,
+      "name": "Pat Mahomes",
+      "position": "QB",
+      "nflTeam": "KC",
+      "bye": 12,
+      "ownerId": ""
+    },
+    {
+      "id": 128,
+      "rank": 128,
+      "name": "Mike Williams",
+      "position": "WR",
+      "nflTeam": "LAC",
+      "bye": 8,
+      "ownerId": ""
+    },
+    {
+      "id": 129,
+      "rank": 129,
+      "name": "Jack Doyle",
+      "position": "TE",
+      "nflTeam": "IND",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 130,
+      "rank": 130,
+      "name": "Philadelphia Defense",
+      "position": "DEF",
+      "nflTeam": "PHI",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 131,
+      "rank": 131,
+      "name": "Giovani Bernard",
+      "position": "RB",
+      "nflTeam": "CIN",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 132,
+      "rank": 132,
+      "name": "Doug Martin",
+      "position": "RB",
+      "nflTeam": "OAK",
+      "bye": 5,
+      "ownerId": ""
+    },
+    {
+      "id": 133,
+      "rank": 133,
+      "name": "Devontae Booker",
+      "position": "RB",
+      "nflTeam": "DEN",
+      "bye": 10,
+      "ownerId": ""
+    },
+    {
+      "id": 134,
+      "rank": 134,
+      "name": "Cameron Meredith",
+      "position": "WR",
+      "nflTeam": "NO",
+      "bye": 5,
+      "ownerId": ""
+    },
+    {
+      "id": 135,
+      "rank": 135,
+      "name": "Kenny Stills",
+      "position": "WR",
+      "nflTeam": "MIA",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 136,
+      "rank": 136,
+      "name": "Marcus Mariota",
+      "position": "QB",
+      "nflTeam": "TEN",
+      "bye": 8,
+      "ownerId": ""
+    },
+    {
+      "id": 137,
+      "rank": 137,
+      "name": "Houston Defense",
+      "position": "DEF",
+      "nflTeam": "HOU",
+      "bye": 10,
+      "ownerId": ""
+    },
+    {
+      "id": 138,
+      "rank": 138,
+      "name": "Rishard Matthews",
+      "position": "WR",
+      "nflTeam": "TEN",
+      "bye": 8,
+      "ownerId": ""
+    },
+    {
+      "id": 139,
+      "rank": 139,
+      "name": "Geronimo Allison",
+      "position": "WR",
+      "nflTeam": "GB",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 140,
+      "rank": 140,
+      "name": "David Njoku",
+      "position": "TE",
+      "nflTeam": "CLE",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 141,
+      "rank": 141,
+      "name": "Martavis Bryant",
+      "position": "WR",
+      "nflTeam": "OAK",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 142,
+      "rank": 142,
+      "name": "Denver Defense",
+      "position": "DEF",
+      "nflTeam": "DEN",
+      "bye": 10,
+      "ownerId": ""
+    },
+    {
+      "id": 143,
+      "rank": 143,
+      "name": "Derek Carr",
+      "position": "QB",
+      "nflTeam": "OAK",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 144,
+      "rank": 144,
+      "name": "Theo Riddick",
+      "position": "RB",
+      "nflTeam": "DET",
+      "bye": 6,
+      "ownerId": ""
+    },
+    {
+      "id": 145,
+      "rank": 145,
+      "name": "Alex Smith",
+      "position": "QB",
+      "nflTeam": "WAS",
+      "bye": 12,
+      "ownerId": ""
+    },
+    {
+      "id": 146,
+      "rank": 146,
+      "name": "Greg Zuerlein",
+      "position": "PK",
+      "nflTeam": "LAR",
+      "bye": 12,
+      "ownerId": ""
+    },
+    {
+      "id": 147,
+      "rank": 147,
+      "name": "Baltimore Defense",
+      "position": "DEF",
+      "nflTeam": "BAL",
+      "bye": 10,
+      "ownerId": ""
+    },
+    {
+      "id": 148,
+      "rank": 148,
+      "name": "Josh Doctson",
+      "position": "WR",
+      "nflTeam": "WAS",
+      "bye": 4,
+      "ownerId": ""
+    },
+    {
+      "id": 149,
+      "rank": 149,
+      "name": "Latavius Murray",
+      "position": "RB",
+      "nflTeam": "MIN",
+      "bye": 10,
+      "ownerId": ""
+    },
+    {
+      "id": 150,
+      "rank": 150,
+      "name": "Kenny Golladay",
+      "position": "WR",
+      "nflTeam": "DET",
+      "bye": 6,
+      "ownerId": ""
+    },
+    {
+      "id": 151,
+      "rank": 151,
+      "name": "Michael Gallup",
+      "position": "WR",
+      "nflTeam": "DAL",
+      "bye": 8,
+      "ownerId": ""
+    },
+    {
+      "id": 152,
+      "rank": 152,
+      "name": "Tyler Eifert",
+      "position": "TE",
+      "nflTeam": "CIN",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 153,
+      "rank": 153,
+      "name": "Chris Ivory",
+      "position": "RB",
+      "nflTeam": "BUF",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 154,
+      "rank": 154,
+      "name": "New Orleans Defense",
+      "position": "DEF",
+      "nflTeam": "NO",
+      "bye": 6,
+      "ownerId": ""
+    },
+    {
+      "id": 155,
+      "rank": 155,
+      "name": "LeGarrette Blount",
+      "position": "RB",
+      "nflTeam": "DET",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 156,
+      "rank": 156,
+      "name": "Justin Tucker",
+      "position": "PK",
+      "nflTeam": "BAL",
+      "bye": 10,
+      "ownerId": ""
+    },
+    {
+      "id": 157,
+      "rank": 157,
+      "name": "Matt Breida",
+      "position": "RB",
+      "nflTeam": "SF",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 158,
+      "rank": 158,
+      "name": "Dak Prescott",
+      "position": "QB",
+      "nflTeam": "DAL",
+      "bye": 8,
+      "ownerId": ""
+    },
+    {
+      "id": 159,
+      "rank": 159,
+      "name": "Stephen Gostkowski",
+      "position": "PK",
+      "nflTeam": "NE",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 160,
+      "rank": 160,
+      "name": "O.J. Howard",
+      "position": "TE",
+      "nflTeam": "TB",
+      "bye": 5,
+      "ownerId": ""
+    },
+    {
+      "id": 161,
+      "rank": 161,
+      "name": "Jordan Matthews",
+      "position": "WR",
+      "nflTeam": "NE",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 162,
+      "rank": 162,
+      "name": "Kenneth Dixon",
+      "position": "RB",
+      "nflTeam": "BAL",
+      "bye": 10,
+      "ownerId": ""
+    },
+    {
+      "id": 163,
+      "rank": 163,
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "nflTeam": "SEA",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 164,
+      "rank": 164,
+      "name": "James White",
+      "position": "RB",
+      "nflTeam": "NE",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 165,
+      "rank": 165,
+      "name": "Eli Manning",
+      "position": "QB",
+      "nflTeam": "NYG",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 166,
+      "rank": 166,
+      "name": "Anthony Miller",
+      "position": "WR",
+      "nflTeam": "CHI",
+      "bye": 5,
+      "ownerId": ""
+    },
+    {
+      "id": 167,
+      "rank": 167,
+      "name": "Dede Westbrook",
+      "position": "WR",
+      "nflTeam": "JAX",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 168,
+      "rank": 168,
+      "name": "Carolina Defense",
+      "position": "DEF",
+      "nflTeam": "CAR",
+      "bye": 4,
+      "ownerId": ""
+    },
+    {
+      "id": 169,
+      "rank": 169,
+      "name": "Spencer Ware",
+      "position": "RB",
+      "nflTeam": "KC",
+      "bye": 12,
+      "ownerId": ""
+    },
+    {
+      "id": 170,
+      "rank": 170,
+      "name": "Jameis Winston",
+      "position": "QB",
+      "nflTeam": "TB",
+      "bye": 5,
+      "ownerId": ""
+    },
+    {
+      "id": 171,
+      "rank": 171,
+      "name": "Pittsburgh Defense",
+      "position": "DEF",
+      "nflTeam": "PIT",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 172,
+      "rank": 172,
+      "name": "Ricky Seals-Jones",
+      "position": "TE",
+      "nflTeam": "ARI",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 173,
+      "rank": 173,
+      "name": "Wil Lutz",
+      "position": "PK",
+      "nflTeam": "NO",
+      "bye": 6,
+      "ownerId": ""
+    },
+    {
+      "id": 174,
+      "rank": 174,
+      "name": "Austin Seferian-Jenkins",
+      "position": "TE",
+      "nflTeam": "JAX",
+      "bye": 5,
+      "ownerId": ""
+    },
+    {
+      "id": 175,
+      "rank": 175,
+      "name": "Kalen Ballage",
+      "position": "RB",
+      "nflTeam": "MIA",
+      "bye": 12,
+      "ownerId": ""
+    },
+    {
+      "id": 176,
+      "rank": 176,
+      "name": "Paul Richardson",
+      "position": "WR",
+      "nflTeam": "WAS",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 177,
+      "rank": 177,
+      "name": "Chicago Defense",
+      "position": "DEF",
+      "nflTeam": "CHI",
+      "bye": 5,
+      "ownerId": ""
+    },
+    {
+      "id": 178,
+      "rank": 178,
+      "name": "Case Keenum",
+      "position": "QB",
+      "nflTeam": "DEN",
+      "bye": 10,
+      "ownerId": ""
+    },
+    {
+      "id": 179,
+      "rank": 179,
+      "name": "Matt Bryant",
+      "position": "PK",
+      "nflTeam": "ATL",
+      "bye": 8,
+      "ownerId": ""
+    },
+    {
+      "id": 180,
+      "rank": 180,
+      "name": "Danny Amendola",
+      "position": "WR",
+      "nflTeam": "MIA",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 181,
+      "rank": 181,
+      "name": "Mitch Trubisky",
+      "position": "QB",
+      "nflTeam": "CHI",
+      "bye": 5,
+      "ownerId": ""
+    },
+    {
+      "id": 182,
+      "rank": 182,
+      "name": "Jake Elliott",
+      "position": "PK",
+      "nflTeam": "PHI",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 183,
+      "rank": 183,
+      "name": "New England Defense",
+      "position": "DEF",
+      "nflTeam": "NE",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 184,
+      "rank": 184,
+      "name": "Tyrell Williams",
+      "position": "WR",
+      "nflTeam": "LAC",
+      "bye": 8,
+      "ownerId": ""
+    },
+    {
+      "id": 185,
+      "rank": 185,
+      "name": "Harrison Butker",
+      "position": "PK",
+      "nflTeam": "KC",
+      "bye": 12,
+      "ownerId": ""
+    },
+    {
+      "id": 186,
+      "rank": 186,
+      "name": "Christian Kirk",
+      "position": "WR",
+      "nflTeam": "ARI",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 187,
+      "rank": 187,
+      "name": "Matt Prater",
+      "position": "PK",
+      "nflTeam": "DET",
+      "bye": 6,
+      "ownerId": ""
+    },
+    {
+      "id": 188,
+      "rank": 188,
+      "name": "Vance McDonald",
+      "position": "TE",
+      "nflTeam": "PIT",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 189,
+      "rank": 189,
+      "name": "Chris Boswell",
+      "position": "PK",
+      "nflTeam": "PIT",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 190,
+      "rank": 190,
+      "name": "Robbie Gould",
+      "position": "PK",
+      "nflTeam": "SF",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 191,
+      "rank": 191,
+      "name": "Dan Bailey",
+      "position": "PK",
+      "nflTeam": "DAL",
+      "bye": 8,
+      "ownerId": ""
+    },
+    {
+      "id": 192,
+      "rank": 192,
+      "name": "Hayden Hurst",
+      "position": "TE",
+      "nflTeam": "BAL",
+      "bye": 10,
+      "ownerId": ""
+    },
+    {
+      "id": 193,
+      "rank": 193,
+      "name": "Mason Crosby",
+      "position": "PK",
+      "nflTeam": "GB",
+      "bye": 7,
+      "ownerId": ""
+    },
+    {
+      "id": 194,
+      "rank": 194,
+      "name": "Keelan Cole",
+      "position": "WR",
+      "nflTeam": "JAX",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 195,
+      "rank": 195,
+      "name": "TJ Yeldon",
+      "position": "RB",
+      "nflTeam": "JAX",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 196,
+      "rank": 196,
+      "name": "Jordan Wilkins",
+      "position": "RB",
+      "nflTeam": "IND",
+      "bye": 9,
+      "ownerId": ""
+    },
+    {
+      "id": 197,
+      "rank": 197,
+      "name": "Mohamed Sanu",
+      "position": "WR",
+      "nflTeam": "ATL",
+      "bye": 8,
+      "ownerId": ""
+    },
+    {
+      "id": 198,
+      "rank": 198,
+      "name": "Tyrod Taylor",
+      "position": "QB",
+      "nflTeam": "CLE",
+      "bye": 11,
+      "ownerId": ""
+    },
+    {
+      "id": 199,
+      "rank": 199,
+      "name": "Benjamin Watson",
+      "position": "TE",
+      "nflTeam": "NO",
+      "bye": 10,
+      "ownerId": ""
+    },
+    {
+      "id": 200,
+      "rank": 200,
+      "name": "Kansas City Defense",
+      "position": "DEF",
+      "nflTeam": "KC",
+      "bye": 12,
+      "ownerId": ""
+    }
+  ]

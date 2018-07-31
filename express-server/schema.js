@@ -1,11 +1,11 @@
-import { gql } from 'apollo-server-core';
+const { gql } = require('apollo-server-express');
 
-export const typeDefs = gql`
+const typeDefs = gql`
   type Query {
+    owners: [Owner]
+    players(freeAgents: Boolean): [Player]
     player(id: Int): Player
     owner(id: Int): Owner
-    players(freeAgents: Boolean): [Player]
-    owners: [Owner]
   }
 
   type Mutation {
@@ -15,11 +15,11 @@ export const typeDefs = gql`
   type Player {
     id: Int
     name: String
-    rank: Int
-    owner: Owner
-    position: String
     nflTeam: String
+    position: String
+    rank: Int
     bye: String
+    owner: Owner
   }
 
   type Owner {
@@ -28,3 +28,5 @@ export const typeDefs = gql`
     players: [Player]
   }
 `;
+
+module.exports = { typeDefs };
