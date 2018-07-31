@@ -1,18 +1,14 @@
 import React, { Component } from 'react';
-import './App.css';
-import ApolloProvider from 'react-apollo/ApolloProvider';
-
-import { ApolloClient } from 'apollo-client';
-import { HttpLink } from 'apollo-link-http';
-import { InMemoryCache } from 'apollo-cache-inmemory';
-import Owners from './components/Owners';
-import AvailablePlayers from './components/AvailablePlayers';
 import SelectedPlayer from './components/SelectedPlayer';
+import AvailablePlayers from './components/AvailablePlayers';
+import Owners from './components/Owners';
+import styled from 'styled-components';
+import { AppContent, AppWrapper } from './components/styled/AppWrappers';
 
-export const client = new ApolloClient({
-  link: new HttpLink({ uri: 'http://localhost:4000/graphql' }),
-  cache: new InMemoryCache()
-});
+const PlayersContainer = styled.section`
+  flex: 1;
+  margin-right: 1em;
+`;
 
 class App extends Component {
   state = {
@@ -20,7 +16,6 @@ class App extends Component {
   };
 
   handleSelectedPlayer = playerId => {
-    console.log('selected player', playerId);
     this.setState({ selectedPlayerId: playerId });
   };
 
@@ -30,22 +25,21 @@ class App extends Component {
 
   render() {
     return (
-      <ApolloProvider client={client}>
-        <div className="app">
-          <h1>Fantasy Football Draft App</h1>
-          <div className="wrapper">
-            <div className="playerPane">
-              <SelectedPlayer
-                selectedPlayerId={this.state.selectedPlayerId}
-                ownerId="2"
-                playerDrafted={this.handlePlayerDrafted}
-              />
-              <AvailablePlayers playerSelect={this.handleSelectedPlayer} />
-            </div>
-            <Owners />
-          </div>
-        </div>
-      </ApolloProvider>
+      <AppWrapper>
+        <h1>Fantasy Football Draft App</h1>
+        <AppContent>
+          <PlayersContainer>
+            <SelectedPlayer
+              selectedPlayerId={this.state.selectedPlayerId}
+              ownerId="2"
+              playerDrafted={this.handlePlayerDrafted}
+            />
+            <AvailablePlayers playerSelect={this.handleSelectedPlayer} />
+          </PlayersContainer>
+
+          <Owners />
+        </AppContent>
+      </AppWrapper>
     );
   }
 }

@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import './SelectedPlayer.css';
-import { Mutation, Query } from 'react-apollo';
+import { graphql, Mutation } from 'react-apollo';
 import gql from 'graphql-tag';
-
-const DRAF_PLAYER = gql`
-  mutation DraftMutation($ownerId: Int!, $playerId: Int!) {
-    draft(ownerId: $ownerId, playerId: $playerId)
-  }
-`;
+import {
+  PlayerCard,
+  PlayerInfo,
+  PlayerName,
+  PlayerStats,
+  DraftButton
+} from './styled/PlayerCard';
+import { Panel } from './styled/Panel';
 
 const GET_PLAYER = gql`
   query player($id: Int) {
@@ -21,20 +22,26 @@ const GET_PLAYER = gql`
   }
 `;
 
+const DRAFT_PLAYER = gql`
+  mutation DraftMutation($ownerId: Int!, $playerId: Int!) {
+    draft(ownerId: $ownerId, playerId: $playerId)
+  }
+`;
+
 class SelectedPlayer extends Component {
-  handleDraftCompleted = data => {
-    if (data.draft) {
+  handleDraftCompleted = res => {
+    if (res.draft) {
       this.props.playerDrafted();
     }
   };
 
   render() {
     return (
-      <div className="selectedPlayer panel">
+      <Panel>
         {!this.props.selectedPlayerId || this.props.selectedPlayerId === -1
           ? this.selectPlayer()
           : this.showPlayerDetails(this.props.selectedPlayerId)}
-      </div>
+      </Panel>
     );
   }
 
@@ -43,41 +50,42 @@ class SelectedPlayer extends Component {
   }
 
   showPlayerDetails(id) {
+    if (this.props.getPlayer.loading) {
+      return <div>Loading</div>;
+    }
+
+    if (this.props.getPlayer.error) {
+      return <div>Error</div>;
+    }
+
+    const player = this.props.getPlayer.player;
+
     return (
-      <div>
-        <Query query={GET_PLAYER} variables={{ id }}>
-          {({ loading, error, data }) => {
-            if (loading) return null;
-            if (error) return `Error!: ${error}`;
-            return (
-              <div className="playerCard">
-                <div className="playerInfo">
-                  <div className="playerName">
-                    {data.player.name} ({data.player.nflTeam})
-                  </div>
-                  <div className="playerStats">
-                    <span>Rank: {data.player.rank}</span> <span>Bye: {data.player.bye}</span>
-                  </div>
-                </div>
-                <Mutation
-                  mutation={DRAF_PLAYER}
-                  variables={{ playerId: data.player.id, ownerId: this.props.ownerId }}
-                  onCompleted={data => this.handleDraftCompleted(data)}
-                  refetchQueries={['ownersQuery', 'players', 'owner']}
-                >
-                  {draftMutation => (
-                    <button className="draftButton" onClick={draftMutation}>
-                      Draft
-                    </button>
-                  )}
-                </Mutation>
-              </div>
-            );
-          }}
-        </Query>
-      </div>
+      <PlayerCard>
+        <PlayerInfo>
+          <PlayerName>
+            {player.name} ({player.nflTeam})
+          </PlayerName>
+          <PlayerStats>
+            <span>Rank: {player.rank}</span> <span>Bye: {player.bye}</span>
+          </PlayerStats>
+        </PlayerInfo>
+        <Mutation
+          mutation={DRAFT_PLAYER}
+          variables={{ playerId: player.id, ownerId: this.props.ownerId }}
+          onCompleted={data => this.handleDraftCompleted(data)}
+          refetchQueries={['players', 'owner']}
+        >
+          {draftMutation => (
+            <DraftButton onClick={draftMutation}>Draft</DraftButton>
+          )}
+        </Mutation>
+      </PlayerCard>
     );
   }
 }
 
-export default SelectedPlayer;
+export default graphql(GET_PLAYER, {
+  name: 'getPlayer',
+  options: props => ({ variables: { id: props.selectedPlayerId } })
+})(SelectedPlayer);

@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import gql from 'graphql-tag';
-import './AvailablePlayers.css';
-import { Query } from 'react-apollo';
+import { graphql } from 'react-apollo';
+import {
+  AvailablePlayersPanel,
+  Title,
+  UndraftedPlayer
+} from './styled/AvailablePlayersPanel';
+import { List } from './styled/List';
 
 const PLAYERS_QUERY = gql`
   query players($freeAgents: Boolean) {
@@ -21,27 +26,34 @@ class AvailablePlayers extends Component {
   };
 
   render() {
+    if (this.props.playersQuery.loading) {
+      return <div>Loading</div>;
+    }
+
+    if (this.props.playersQuery.error) {
+      return <div>Error {this.props.playersQuery.error.message}</div>;
+    }
+
     return (
-      <div className="panel availablePlayers">
-        <h3>Undrafted Players</h3>
-        <Query query={PLAYERS_QUERY} variables={{ freeAgents: true }}>
-          {({ loading, error, data }) => {
-            if (loading) return null;
-            if (error) return `Error!: ${error}`;
-            return (
-              <ul>
-                {data.players.map(p => (
-                  <li key={p.id} onClick={() => this.handleSelectedPlayer(p.id)}>
-                    <strong>{p.rank}</strong> {p.position} {p.name} ({p.nflTeam})
-                  </li>
-                ))}
-              </ul>
-            );
-          }}
-        </Query>
-      </div>
+      <AvailablePlayersPanel>
+        <Title>Undrafted Players</Title>
+
+        <List>
+          {this.props.playersQuery.players.map(p => (
+            <UndraftedPlayer
+              key={p.id}
+              onClick={() => this.handleSelectedPlayer(p.id)}
+            >
+              <strong>{p.rank}</strong> {p.position} {p.name} ({p.nflTeam})
+            </UndraftedPlayer>
+          ))}
+        </List>
+      </AvailablePlayersPanel>
     );
   }
 }
 
-export default AvailablePlayers;
+export default graphql(PLAYERS_QUERY, {
+  name: 'playersQuery',
+  options: () => ({ variables: { freeAgents: true } })
+})(AvailablePlayers);
