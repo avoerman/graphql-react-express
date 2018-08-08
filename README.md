@@ -8,7 +8,8 @@ End to end example of a GraphQL Express server called by a React client
 * npm run start
 
 A graphQL server should start on http://localhost:4000/graphql
-graphiQL should start on http://localhost:4000/graphiql
+
+graphiQL playground should start on http://localhost:4000/graphql/playground
 
 ### Build and start React
 * cd react-client
